@@ -3,11 +3,11 @@ const form = document.getElementById("register-form");
 form.addEventListener("submit", function (e) {
     e.preventDefault();
 
-    const fullName = document.getElementById("full-name").value;
-    const email = document.getElementById("email").value;
-    const password = document.getElementById("password").value;
-    const address = document.getElementById("address").value;
-    const confirmPassword = document.getElementById("confirm-password").value;
+    const fullName = document.getElementById("regFullName").value;
+    const email = document.getElementById("regEmail").value;
+    const password = document.getElementById("regPassword").value;
+    const address = document.getElementById("regAddress").value;
+    const confirmPassword = document.getElementById("regConfirmPassword").value;
 
     if (fullName === "") {
         alert("Please enter your full name");
